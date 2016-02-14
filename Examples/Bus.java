@@ -3,14 +3,14 @@ double fare;
 int pass;
 double money;
 
-public Bus(double fare, int pass){//set object
-	this.fare; 
-	this.pass;
+public Bus(double fare, int pass){//set object Bus 
+	this.fare; //price of the bus ticket
+	this.pass; //numbers of passengers
 	money = pass*fare;}
 
 
 
-public void stop(int on, int off){//determine passengers
+public void stop(int on, int off){//determine numbers passengers
 	if(pass>=off){
 	pass = pass + on - off;}
 	else{pass = 0;
